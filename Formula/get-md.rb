@@ -1,16 +1,16 @@
 class GetMd < Formula
   desc "Fetch web pages with JS rendering and convert to Markdown"
   homepage "https://github.com/owayo/get-md"
-  version "26.2.101"
+  version "26.3.100"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/owayo/get-md/releases/download/v26.2.101/get-md-aarch64-apple-darwin.tar.gz"
-      sha256 "9457092864e1e3503cb6db7ad6c26623b33c598ef2817596885335e5ffa34e08"
+      url "https://github.com/owayo/get-md/releases/download/v26.3.100/get-md-aarch64-apple-darwin.tar.gz"
+      sha256 "f973d5ff03430a3d966a72f04e0f96445320eb3889a11363598cbb3ef1ef1064"
     else
-      url "https://github.com/owayo/get-md/releases/download/v26.2.101/get-md-x86_64-apple-darwin.tar.gz"
-      sha256 "bfd5fce2f0b9f43c237ebe27fccbf67e1f3165a997b77ee5903440d50753172e"
+      url "https://github.com/owayo/get-md/releases/download/v26.3.100/get-md-x86_64-apple-darwin.tar.gz"
+      sha256 "81abc7773b821d1a84ff1785c380f9b3429d5f8452d912cab1d5d5237c5559b7"
     end
   end
 
