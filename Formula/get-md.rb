@@ -5,11 +5,11 @@ class GetMd < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/owayo/get-md/releases/download/v26.9.100/get-md-aarch64-apple-darwin.tar.gz"
-      sha256 "f9f06c36bb6d54ff45a5b257b1caa0c64d6e6c8b8b47e3ab21c4266dd9d6de46"
+      url "https://github.com/owayo/get-md/releases/download/v26.9.101/get-md-aarch64-apple-darwin.tar.gz"
+      sha256 "b8c03cb6e7c0d6e0b7517fbd1e3f55f3c7c131e433ffcb0927bd73d9558bfef7"
     else
-      url "https://github.com/owayo/get-md/releases/download/v26.9.100/get-md-x86_64-apple-darwin.tar.gz"
-      sha256 "ae84fc84c086252f14d09d2239a1c030c8e747925313d0727bce21e170fb6abd"
+      url "https://github.com/owayo/get-md/releases/download/v26.9.101/get-md-x86_64-apple-darwin.tar.gz"
+      sha256 "e592fa5d13aac8388985baf3a4d93f2f3b92abc14ac89a257fa2fed89299ed80"
     end
   end
 
